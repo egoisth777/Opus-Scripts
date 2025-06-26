@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<usercommand backcol="none" hide_from_menu="no" textcol="none">
+	<label>open_in_cursor</label>
+	<icon1>/localappdata/Programs/cursor/Cursor.exe,-1</icon1>
+	<function type="normal">
+		<instruction>@async: cursor {sourcepath}</instruction>
+	</function>
+</usercommand>

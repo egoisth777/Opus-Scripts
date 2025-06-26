@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<usercommand backcol="none" hide_from_menu="no" textcol="none">
+	<label>pwsh7_admin</label>
+	<tip>Opens PowerShell7 instance with the working directory to be the current folder</tip>
+	<icon1>/programfiles/PowerShell/7/assets/Powershell_avatar.ico,0</icon1>
+	<function type="normal">
+		<instruction>CLI DOSPROMPT=powershell,admin EXEC=&quot;C:\Program Files\PowerShell\7\pwsh.exe&quot; </instruction>
+	</function>
+</usercommand>

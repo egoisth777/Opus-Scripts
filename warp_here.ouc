@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<usercommand backcol="none" hide_from_menu="no" textcol="none">
+	<label>warp_here</label>
+	<tip>Open a warp session in the current Directory</tip>
+	<icon1>/programfiles/Warp/icon.ico,0</icon1>
+	<function type="normal">
+		<instruction>@async: pwsh -WorkingDirectory {sourcepath} -NonInteractive -Command &quot;start &quot;warp://action/new_tab?path=$PWD&quot;&quot;</instruction>
+	</function>
+</usercommand>
